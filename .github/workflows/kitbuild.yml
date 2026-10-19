@@ -1,4 +1,4 @@
-```yaml
+
 name: Build KittyGens 26.3
 
 on:
@@ -36,4 +36,3 @@ jobs:
           name: KittyGens-26.3
           path: KittyGens-26.3-Project/KittyGens-26.3/build/libs/*.jar
           if-no-files-found: error
-```
