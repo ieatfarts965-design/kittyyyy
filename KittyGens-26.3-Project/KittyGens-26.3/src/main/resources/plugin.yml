@@ -1,0 +1,25 @@
+name: KittyGens
+version: 1.0.0
+main: com.kittygens.KittyGens
+api-version: '26.3'
+description: Cat-themed generator islands, upgrades, fur selling, co-op and meow boosts.
+author: KittyGens
+commands:
+  island:
+    description: Open your island menu or manage island members.
+    usage: /island [invite|accept|leave|expand]
+    aliases: [is]
+  spawn:
+    description: Teleport to the server spawn.
+  kittygens:
+    description: KittyGens admin and help command.
+    aliases: [kg]
+  sellfur:
+    description: Sell all KittyGens fur in your inventory.
+  generators:
+    description: Open the generator shop.
+    aliases: [gens]
+permissions:
+  kittygens.admin:
+    description: Allows KittyGens admin commands.
+    default: op
